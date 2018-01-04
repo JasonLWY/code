@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="referrer" content="never">
+    <title>lazycat</title>
+    <script type="text/javascript">
+      (function () {
+        var styleNode = document.createElement("style");
+        var width = document.documentElement.clientWidth / 16;
+        styleNode.innerHTML = "html{font-size:" + width + "px!important}";
+        document.head.appendChild(styleNode);
+      })();
+    </script>
+<!--    <style>
+      html,body{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    </style>-->
+  </head>
+  <body>
+    <div id="app">
+
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
