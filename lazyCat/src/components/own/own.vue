@@ -7,9 +7,9 @@
       <div class="hr1"></div>
     </div>
     <div class="login_state">
-      <a href="#"><img src="./logo1122.png" alt=""></a>
+      <a href="javascript:;"><img src="./logo1122.png" alt=""></a>
       <span>未登录</span>
-      <a href="login.html"><img src="./more.png" alt=""></a>
+      <router-link to="/login"><img src="./more.png" alt=""></router-link>
     </div>
     <div class="message">
       <div class="message_1 f_l">

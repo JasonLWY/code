@@ -12,7 +12,7 @@
       <br>
       <span class="text"> 喵喵， 还没有登录哦～</span>
       <br>
-      <a class="login_btn" href="#">立即登陆</a>
+      <router-link class="login_btn" to="/login">立即登陆</router-link>
     </div>
   </div>
 </template>

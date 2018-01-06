@@ -25,11 +25,10 @@
       <!--右边的区域 -->
       <div class="main_right">
         <!-- 列表内容 -->
-        <!-- ul.clearfix>li*15>a[href='#']>img[src='images/nv-fy.jpg']+p{毛呢大衣} -->
         <ul>
-          <li><a href="#">
+          <li><router-link to="/list">
             <img src="./cate5.png">
-          </a></li>
+          </router-link></li>
           <li><a href="#">
             <img src="./cate1.png">
           </a></li>
